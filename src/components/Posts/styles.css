@@ -1,0 +1,22 @@
+.post-enter-active {
+    animation: post .8s ease-in alternate-reverse;
+}
+
+.post-exit-active {
+    animation: post .8s ease-out forwards;
+}
+
+@keyframes post {
+    0%{
+        transform: translateX(0);
+    }
+
+    30% {
+        opacity: .7;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+}
