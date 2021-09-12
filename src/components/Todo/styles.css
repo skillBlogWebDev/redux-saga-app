@@ -1,0 +1,9 @@
+.post-btn {
+    margin-right: 10px;
+}
+
+.title-done {
+    opacity: 0.5;
+    text-decoration: line-through;
+    transition: opacity .3s ease-in-out;
+}
